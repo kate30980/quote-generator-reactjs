@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <Quotes quote={quote} />
-      <button onClick={generate}>Generate Quotes</button>
+      <button>Generate Quotes</button>
     </div>
   );
 }

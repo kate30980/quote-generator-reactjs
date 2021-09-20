@@ -1,0 +1,35 @@
+:root{
+  --primary: #A84FFF;
+  --secondary: #D81E58;
+  --dark: #131A26;
+  --light: #EEEEEE;
+  --grey: #888888;
+
+  --font: 'Fira Sans',sans-serif;
+  --font-quote: 'Fira Code', monospace;
+}
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
+}
+body{
+  background-color: var(--light);
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.quote{
+  position: relative;
+}
+.anime, .character{
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+}
